@@ -2,20 +2,20 @@
 
 ## Requirments of the assignment
 
-    1. Explain the overall purpose of the package 
-    2. Explain the use of the "Simple random data" and "permutations" functions. 
-    3. Explain the use and purpose of at least five "Distributions" functions. 
-    4. Explain the use of seeds in generating pseudorandom numbers
+   1. Explain the overall purpose of the package 
+   2. Explain the use of the "Simple random data" and "permutations" functions. 
+   3. Explain the use and purpose of at least five "Distributions" functions. 
+   4. Explain the use of seeds in generating pseudorandom numbers
 
 ### Other requirments 
 
-    1. Use github version control in public repo
-    2. Upload repo url to the assignment section on student page. 
-    3. Commit history of at least 10
-    4. Meaningful commit messages
-    5. Assignment deadline 11/11/2018 at midnight
-    6. README file containing an explanation of what is in the repository and how to run jupyter notebook. 
-    7. Jupyter notebook with the report on numpy.random
+   1. Use github version control in public repo
+   2. Upload repo url to the assignment section on student page. 
+   3. Commit history of at least 10
+   4. Meaningful commit messages
+   5. Assignment deadline 11/11/2018 at midnight
+   6. README file containing an explanation of what is in the repository and how to run jupyter notebook. 
+   7. Jupyter notebook with the report on numpy.random
         a. Explain the dataset? no data set so must mean explain numpy.random
         b. Have well conceived, interesting and well researched project
         c. Assignment covers jupyter notebook so include fancy stuff like images, links, code and plots
@@ -32,17 +32,17 @@ First get the required software, as I have windows 10 on my pc I'm only adding l
 
 This project requires
 
-    * Jupyter notebook
-    * iPython via Anaconda and other python packages like  numpy
-    * cmder 
-    * Github account
+   * Jupyter notebook
+   * iPython via Anaconda and other python packages like  numpy
+   * cmder 
+   * Github account
     
 Anaconda has python, ipython, jupyter notebook and a large number of common python packages required in Data Analysis. 
 
-    1. Get anaconda 3.7 version for windows [Anaconda](https://www.anaconda.com/download/)
-    2. Get git 2.19.1 [Git](https://git-scm.com/download/win)
-    3. Get cmder 1.3.6 [Cmder](https://github.com/cmderdev/cmder/releases/download/v1.3.6/cmder.zip) - Optional (cmder comes with git so you can drop option 2 above if you go with option 3).  
-    4. Get github account - set up github account and create a repo [Github](https://github.com/)
+   1. Get anaconda 3.7 version for windows [Anaconda](https://www.anaconda.com/download/)
+   2. Get git 2.19.1 [Git](https://git-scm.com/download/win)
+   3. Get cmder 1.3.6 [Cmder](https://github.com/cmderdev/cmder/releases/download/v1.3.6/cmder.zip) - Optional (cmder comes with git so you can drop option 2 above if you go with option 3).  
+   4. Get github account - set up github account and create a repo [Github](https://github.com/)
 
 
 ### Installing
@@ -52,14 +52,15 @@ Install the above packages. Any problems google it. Update any packages; From cm
 ```
 conda update –all 
 git - version
+
 ```
 
 ## Repository structure
 
 The gitignore file ignores the .git and .ipynb_checkpoints in the local folder. Python files are also ignored. A standard gitignore file was used. It can be found here [Python gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore) 
 
-    * data 
-        * ANSURD2Distribution.zip which can be downloaded  at this link [Ansurd2](http://mreed.umtri.umich.edu/mreed/downloads.html)contaning public data on us military personale heights from 2012 - used to illustrate normal distribution. 
+   * data 
+       * ANSURD2Distribution.zip which can be downloaded  at this link [Ansurd2](http://mreed.umtri.umich.edu/mreed/downloads.html)contaning public data on us military personale heights from 2012 - used to illustrate normal distribution. 
     One file is unzipped and the spaces in the name removed ANSURIIMALEPublic.csv
     * img - various images used within the report; this may change so I'll not list them out. some i made up some were taken from the internet, some have acknowledgements added in the jupyter notebook.
     * .gitignore - gitignore file taken from [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
@@ -84,8 +85,8 @@ The main body of work is in the jupyter notebook *numpy-random.ipynb*.
 
 There are two ways to start jupyter notebook. 
 
-    1. Via the Anaconda App 
-    2. Via the command line on cmder. 
+   1. Via the Anaconda App 
+   2. Via the command line on cmder. 
 
 I will describe the cmder approach.
 
@@ -94,8 +95,9 @@ Open cmder in your home directory or from a folder within the home directory. Ju
 ```
 C:\Users\Helen\Desktop\GMIT\github\
 ```
-    * Create a repo on github [GitHub Repo](https://github.com/Osheah/p4da-numpy-random)
-    * Clone the repo on github by clicking the green clone or download link
+
+   * Create a repo on github [GitHub Repo](https://github.com/Osheah/p4da-numpy-random)
+   * Clone the repo on github by clicking the green clone or download link
     
 Go to cmder and enter ...
 
@@ -145,3 +147,4 @@ This project is licensed under the  GNU GENERAL PUBLIC LICENSE Version 3, 29 Jun
 
 * Thanks to all the good folks at wikipedia and stackoverflow
 * Thanks to my husband for taking the kids away for the weekend. 
+* Thanks to this coder  - code taken from https://www.programiz.com/python-programming/examples/shuffle-card
