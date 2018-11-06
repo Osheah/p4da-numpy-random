@@ -59,16 +59,16 @@ git - version
 
 The gitignore file ignores the .git and .ipynb_checkpoints in the local folder. Python files are also ignored. A standard gitignore file was used. It can be found here [Python gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore) 
 
-   * data 
-       * ANSURD2Distribution.zip which can be downloaded  at this link [Ansurd2](http://mreed.umtri.umich.edu/mreed/downloads.html)contaning public data on us military personale heights from 2012 - used to illustrate normal distribution. 
+* data 
+    * ANSURD2Distribution.zip which can be downloaded  at this link [Ansurd2](http://mreed.umtri.umich.edu/mreed/downloads.html)contaning public data on us military personale heights from 2012 - used to illustrate normal distribution. 
     One file is unzipped and the spaces in the name removed ANSURIIMALEPublic.csv
-    * img - various images used within the report; this may change so I'll not list them out. some i made up some were taken from the internet, some have acknowledgements added in the jupyter notebook.
-    * .gitignore - gitignore file taken from [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
-    * License - GNU GENERAL PUBLIC LICENSE Version 3
-    * README.md - this readme
-    * numpy-random.ipynb - The main body of the assignment
-    * numpy-ref-1.15.1.pdf - taken from [numpybook](https://docs.scipy.org/doc/_static/numpybook.pdf)
-    * numpybook.pdf - taken from [numpy reference](https://docs.scipy.org/doc/numpy/numpy-ref-1.15.1.pdf)
+* img - various images used within the report; this may change so I'll not list them out. some i made up some were taken from the internet, some have acknowledgements added in the jupyter notebook.
+* .gitignore - gitignore file taken from [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
+* License - GNU GENERAL PUBLIC LICENSE Version 3
+* README.md - this readme
+* numpy-random.ipynb - The main body of the assignment
+* numpy-ref-1.15.1.pdf - taken from [numpybook](https://docs.scipy.org/doc/_static/numpybook.pdf)
+* numpybook.pdf - taken from [numpy reference](https://docs.scipy.org/doc/numpy/numpy-ref-1.15.1.pdf)
 
 
 I may or may not remove the book links by the time the assignment is due; same with some of the photos. 
