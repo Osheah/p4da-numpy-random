@@ -16,11 +16,11 @@
    5. Assignment deadline 11/11/2018 at midnight
    6. README file containing an explanation of what is in the repository and how to run jupyter notebook. 
    7. Jupyter notebook with the report on numpy.random
-        a. Explain the dataset? no data set so must mean explain numpy.random
-        b. Have well conceived, interesting and well researched project
-        c. Assignment covers jupyter notebook so include fancy stuff like images, links, code and plots
-        d. Any python package that you fancy. 
-    8. gitignore file
+         * Explain the dataset? no data set so must mean explain numpy.random
+         * Have well conceived, interesting and well researched project
+         * Assignment covers jupyter notebook so include fancy stuff like images, links, code and plots
+         * Any python package that you fancy. 
+   8. gitignore file
 
 
 
@@ -66,12 +66,13 @@ The gitignore file ignores the .git and .ipynb_checkpoints in the local folder. 
 * .gitignore - gitignore file taken from [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
 * License - GNU GENERAL PUBLIC LICENSE Version 3
 * README.md - this readme
+* assignment.pdf - a pdf of the assignment
 * numpy-random.ipynb - The main body of the assignment
 * numpy-ref-1.15.1.pdf - taken from [numpybook](https://docs.scipy.org/doc/_static/numpybook.pdf)
 * numpybook.pdf - taken from [numpy reference](https://docs.scipy.org/doc/numpy/numpy-ref-1.15.1.pdf)
 
 
-I may or may not remove the book links by the time the assignment is due; same with some of the photos. 
+
 
 ## Jupyter 
 
@@ -91,7 +92,7 @@ There are two ways to start jupyter notebook.
 I will describe the cmder approach.
 
 
-Open cmder in your home directory or from a folder within the home directory. Jupyter notebook will only be able to access this folder and any sub folders. 
+Open cmder in your home directory or from a folder within the home directory. Jupyter notebook will only be able to access this folder and any sub folders. For example ...
 ```
 C:\Users\Helen\Desktop\GMIT\github\
 ```
@@ -120,7 +121,7 @@ Navigate to your cloned folder from within the Jupyter notebook home. On the rig
 
 ### ending a jupyter notebook session
 
-Save any unsaved jupyter notebooks. Close jupyter notebook windows in your browser. Go to cmder and enter **control + c**. This shuts the ipython kernal that jupyter uses. Upload your notebook to github via the commands below; Make sure that you are in the directory that git is initialised in e.g. C:\Users\Helen\Desktop\GMIT\github\p4da-numpy-random\
+Save any unsaved jupyter notebooks. Close jupyter notebook windows in your browser. Go to cmder and enter **control + c**. This shuts the ipython kernal that jupyter uses. Upload your notebook to github via the commands below; Make sure that you are in the directory that git is initialised in e.g. C:\Users\Helen\Desktop\GMIT\github\p4da-numpy-random\ for example...
 
 ```
 git status
