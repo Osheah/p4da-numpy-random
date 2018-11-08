@@ -60,16 +60,16 @@ git - version
 The gitignore file ignores the .git and .ipynb_checkpoints in the local folder. Python files are also ignored. A standard gitignore file was used. It can be found here [Python gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore) 
 
 * data 
-    * ANSURD2Distribution.zip which can be downloaded  at this link [Ansurd2](http://mreed.umtri.umich.edu/mreed/downloads.html)contaning public data on us military personale heights from 2012 - used to illustrate normal distribution. 
+    * ANSURD2Distribution.zip which can be downloaded  at this link [Ansurd2](http://mreed.umtri.umich.edu/mreed/downloads.html) contaning public data on us military personel heights from 2012 - used to illustrate normal distribution. 
     One file is unzipped and the spaces in the name removed ANSURIIMALEPublic.csv
-* img - various images used within the report; this may change so I'll not list them out. some i made up some were taken from the internet, some have acknowledgements added in the jupyter notebook.
+* img - various images used within the report; 
 * .gitignore - gitignore file taken from [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
 * License - GNU GENERAL PUBLIC LICENSE Version 3
 * README.md - this readme
 * assignment.pdf - a pdf of the assignment
 * numpy-random.ipynb - The main body of the assignment
-* numpy-ref-1.15.1.pdf - taken from [numpybook](https://docs.scipy.org/doc/_static/numpybook.pdf)
-* numpybook.pdf - taken from [numpy reference](https://docs.scipy.org/doc/numpy/numpy-ref-1.15.1.pdf)
+* numpy-ref-1.15.1.pdf - Numpy Reference Book taken from [numpybook](https://docs.scipy.org/doc/_static/numpybook.pdf)
+* numpybook.pdf - Numpy book taken from [numpy reference](https://docs.scipy.org/doc/numpy/numpy-ref-1.15.1.pdf)
 
 
 
@@ -94,19 +94,19 @@ I will describe the cmder approach.
 
 Open cmder in your home directory or from a folder within the home directory. Jupyter notebook will only be able to access this folder and any sub folders. For example ...
 ```
-C:\Users\Helen\Desktop\GMIT\github\
+C:\Users\Username\Desktop\WorkFolder\github\
 ```
 
    * Create a repo on github [GitHub Repo](https://github.com/Osheah/p4da-numpy-random)
    * Clone the repo on github by clicking the green clone or download link
     
-Go to cmder and enter ...
+Go to cmder and enter ... for example
 
 ```
-git clone https://github.com/Osheah/p4da-numpy-random.git
+git clone https://github.com/username/repo-name.git
 git init
 ```
-Open jupyter using the command...
+Open jupyter notebook using the command...
 
 ```
 jupyter notebook
@@ -117,11 +117,11 @@ A browser should open linking the current directory in cmder to an jupyter versi
 
 ### create a jupyter notebook
 
-Navigate to your cloned folder from within the Jupyter notebook home. On the right click the 'new' button and select python 3. A new jupyter notebook for python 3 will open with the default title *untitled*. Click on the name *untitled* and rename it e.g. numpy-random.ipynb. Details on how to create cells in jupyter notebook can be found here [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#basic-workflow). Save any work (although it is usually saved automatically). 
+Navigate to your cloned folder from within the Jupyter notebook home. On the right click the 'new' button and select python 3. A new jupyter notebook for python 3 will open with the default title *untitled*. Click on the name *untitled* and rename it e.g. projectnaem.ipynb. Details on how to create cells in jupyter notebook can be found here [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#basic-workflow). Save any work (although it is usually saved automatically). 
 
 ### ending a jupyter notebook session
 
-Save any unsaved jupyter notebooks. Close jupyter notebook windows in your browser. Go to cmder and enter **control + c**. This shuts the ipython kernal that jupyter uses. Upload your notebook to github via the commands below; Make sure that you are in the directory that git is initialised in e.g. C:\Users\Helen\Desktop\GMIT\github\p4da-numpy-random\ for example...
+Save any unsaved jupyter notebooks. Close jupyter notebook windows in your browser. Go to cmder and enter **control + c** i.e the control key and c key pressed at the same time. This shuts the ipython kernal that jupyter uses. Upload your notebook to github via the commands below; Make sure that you are in the directory that git is initialised in e.g. C:\Users\Username\Desktop\Workfolder\projectfolder\ for example...
 
 ```
 git status
@@ -132,7 +132,7 @@ git push
 
 ### opening a jupyter notebook
 
-Jupyter notebooks have the extension ipynb. When you find a notebook that you want to look at or edit, dont click on it; Instead right click and save it to your local pc. Then open jupyter notebook via the cmder commandline and navigate to the notebook. NB; **before opening the notebook make sure the notebook is saved in a sub directory of the cmder path**. Jupyter notebooks cannot access any files that are not within the path when the kernal is called. 
+Jupyter notebooks have the extension ipynb. When you find a notebook that you want to look at or edit, don't click on it; Instead right click and save it to your local pc. Then open jupyter notebook via the cmder commandline and navigate to the notebook. NB; **before opening the notebook make sure the notebook is saved in a sub directory of the cmder path**. Jupyter notebooks cannot access any files that are not within the path when the kernal is called. 
 
 
 ## Authors
