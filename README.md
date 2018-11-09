@@ -104,7 +104,7 @@ Go to cmder and enter ... for example
 
 ```
 git clone https://github.com/username/repo-name.git
-git init
+
 ```
 Open jupyter notebook using the command...
 
@@ -133,6 +133,10 @@ git push
 ### opening a jupyter notebook
 
 Jupyter notebooks have the extension ipynb. When you find a notebook that you want to look at or edit, don't click on it; Instead right click and save it to your local pc. Then open jupyter notebook via the cmder commandline and navigate to the notebook. NB; **before opening the notebook make sure the notebook is saved in a sub directory of the cmder path**. Jupyter notebooks cannot access any files that are not within the path when the kernal is called. 
+
+## Issues
+I was unsure of the scope of the assignment and the level of knowledge assumed
+Issue on some LaTeX symbols not showing in github rendering of ipynb but are showing in jupyter notebook, particularly the symbol $\sim$  when discussing the distributions. 
 
 
 ## Authors
